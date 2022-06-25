@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import requests from '../Requests'
 
 const Main = () => {
-  const [movies , setMovies] = useState([])
+  const [movies,setMovies] = useState([])
 
   const movie = movies[Math.floor(Math.random() * movies.length)]
 
